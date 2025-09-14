@@ -1,0 +1,55 @@
+<!-- ======================= CHECKBOX AND RADIO BUTTONS ================================= -->
+
+<!-- ++++++++++++++++++++++++++++ CHECKBOX +++++++++++++++++++++++ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+</head>
+<body>
+    <form action="food/Pizza" method="post">
+
+    <input type="checkbox" id="topping-1" name="pineapple">
+    <label for="topping-1">Pineapple</label>
+    
+    <input type="checkbox" id="topping-2" name="onion">
+    <label for="topping-2">Onion</label>
+    
+    <input type="checkbox" id="topping-3" name="tomatoes">
+    <label for="topping-3">Tomatoes</label>
+
+    <button type="submit">Submit</button>
+
+    </form>
+    
+
+</body>
+</html>
+
+
+<!-- +++++++++++++++++++++++++++++++ RADIO BUTTON +++++++++++++++++++++++++++++++ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clothing</title>
+</head>
+<body>
+    <form action="pizza/shops" method="post">
+    
+        <input type="radio" id="small" name="size" value="s">           <!--here we are using value because name is the same in all the 3 inputscso to distinguish-->
+        <label for="">Small</label>
+        <input type="radio" id="medium" name="size" value="m">
+        <label for="">Medium</label>
+        <input type="radio" id="large" name="size" value="l">
+        <label for="">Large</label>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
